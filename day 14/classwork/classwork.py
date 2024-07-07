@@ -41,14 +41,14 @@ print(sum(numbers))
 
 max_number = numbers[0]
 for number in numbers:
-    if max_number < numbers:
-        max_number = numbers
+    if max_number < number:
+        max_number = number
 print(max_number)
 
 min_number = numbers[0]
 for min_number in numbers:
-    if min_number > numbers:
-        min_number = numbers
+    if min_number > number:
+        min_number = number
 print(min_number)
 
 

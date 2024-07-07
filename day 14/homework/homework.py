@@ -1,46 +1,46 @@
 #დავალება 1 (pop)
-# numbers= [1,2,3,4,5,6,7]
-# numbers.pop()
-# print(numbers)
+numbers= [1,2,3,4,5,6,7]
+numbers.pop()
+print(numbers)
 
-# strings = ["dato","car","eye","dress"]
-# strings.pop(0)
-# strings.append("dato")
-# print(strings)
+strings = ["dato","car","eye","dress"]
+strings.pop(0)
+strings.append("dato")
+print(strings)
 
-# characters = ["a","b","s","d","e","f","g"]
-# characters.pop(2)
-# print(characters)
+characters = ["a","b","s","d","e","f","g"]
+characters.pop(2)
+print(characters)
 
-# tuplets = ["uple","quints","Sextuplets","Septuplets"]
-# numbers.pop(3)
-# numbers.append("septuplets")
-# print(tuplets)
-
-
-# #დავალება 2 (count)
-# count = 0
-# intengers = [1,2,3,5,4,5,8,7,5,9]
-# for i in intengers:
-#     if i == 5:
-#         count = count + 1
-# print(count)
+tuplets = ["uple","quints","Sextuplets","Septuplets"]
+numbers.pop(3)
+numbers.append("septuplets")
+print(tuplets)
 
 
-# count = 0
-# strings = ["a","b","c","a","n","a","a"]
-# for i in strings:
-#     if i == "a":
-#         count = count + 1
-# print(count)
+#დავალება 2 (count)
+count = 0
+intengers = [1,2,3,5,4,5,8,7,5,9]
+for i in intengers:
+    if i == 5:
+        count = count + 1
+print(count)
 
 
-# count = 0
-# boolean_values = ["true","false","true","true"]
-# for i in boolean_values:
-#     if i == "true":
-#         count = count + 1
-# print(count)
+count = 0
+strings = ["a","b","c","a","n","a","a"]
+for i in strings:
+    if i == "a":
+        count = count + 1
+print(count)
+
+
+count = 0
+boolean_values = ["true","false","true","true"]
+for i in boolean_values:
+    if i == "true":
+        count = count + 1
+print(count)
 
 #დავალება 3 (max)
 integers = [1,2,3,8,3,10,13,25,18]
