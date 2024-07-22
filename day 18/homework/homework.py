@@ -24,3 +24,19 @@ fav_manhwas = {
     "therd": "second life ranker",
 }
 print(f"my favorit manhwa is {fav_manhwas['first']},after that is {fav_manhwas['second']} and my therd favoret manhwa is{fav_manhwas['therd']}.")
+
+#დავალება 4
+shoping_cart = {
+    
+}
+
+num = int(input("type in how many items you want to buy:"))
+for i in range(num):
+    item = input("pleas enter your item:")
+    quantity = int(input("pleas enter how much you want:"))
+
+if item in shoping_cart:
+    shoping_cart[item] += quantity
+else:
+    shoping_cart[item] = quantity
+        
