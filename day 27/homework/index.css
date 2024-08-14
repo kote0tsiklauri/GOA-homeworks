@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 30px 0px;
+}
+
+.div1 {
+    width: 50%;
+    height: 200px;
+    background-color: rgb(99, 32, 32);
+}
+
+
+.div2 {
+    width: 60%;
+    height: 300px;
+    background-color: rgb(60, 173, 26);
+}
+
+.div3 {
+    color: #fff;
+    width: 70%;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+}
+
+.div4 {
+    width: 80%;
+    height: 500px;
+    background-color: rgb(255, 255, 0);
+}
+
+.div5 {
+    width: 90%;
+    height: 600px;
+    background-color: rgb(219, 102, 24);
+}
+
+.p1{
+    text-align: right;
+}
+
+.p2{
+    text-align: center;
+}
+
+.p3 {
+    text-align: left;
+}
+
+
+.txt-dec{
+    margin-left: 10px;
+    width: 50%;
+}
+
+.txt-dec .p0{
+    text-align: right;
+    text-decoration: underline dotted green;
+
+}
+
+.txt-dec .p1{
+    text-align: center;
+    text-decoration: line-through solid;
+}
+
+.txt-dec .p2{
+    text-align: left;
+    text-decoration: overline double red;
+}
+
+.txt-dec .p3{
+    text-align: center;
+    text-decoration: underline solid;
+}
+
+.txt-dec .p4{
+    text-align: right;
+    text-decoration: line-through dotted green;
+}
+
+.txt-dec .p5{
+    text-align: left;
+    text-decoration: line-through solid;
+}
+
+.txt-dec .p6{
+    text-align: left;
+    text-decoration: overline solid;
+}
+
+.txt-dec .p7{
+    text-align: right;
+    text-decoration: overline solid green;
+}
+
+.txt-dec .p8{
+    color: grey;
+    text-align: center;
+    text-decoration: overline solid grey;
+}
+
+.txt-dec .p9{
+    text-align: right;
+    text-decoration: underline dotted green;
+}
+
+

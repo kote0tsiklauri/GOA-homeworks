@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    background: rgb(255, 255, 0);
+    width: 50%;
+}
+
+.p1 {
+    font-size: 200%;
+    background: rgb(0, 0, 255);
+}
+
+.p2 {
+    font-size: 110%;
+    background: rgb(0, 255, 255);
+}
+
+.img {
+    
+    width: 60%;
+    height: 60%;
+}
