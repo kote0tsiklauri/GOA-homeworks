@@ -1,0 +1,29 @@
+
+.box {
+    background-color: #0000ff;
+    width: 100px;
+    height: 100px;
+}
+
+
+.box:hover {
+    transform: scale(2) rotate(45deg);
+} 
+
+.wraper{
+    width: 300px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.loadingbar{
+    background-color: blue;
+    height: 30px;
+    width: 0px;
+    transition: width 10s 3s;
+
+}
+
+.wraper:hover .loadingbar{
+    width: 300px;
+}
