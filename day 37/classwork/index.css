@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif; 
+    
+}
+
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0; 
+    
+}
+
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+
+.name {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 650px){
+    .navbar {
+        justify-content: space-around;
+    }
+    
+    .name {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    button{
+        padding: 5px 10px
+    } 
+
+    a {
+        font-weight: small;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        justify-content: space-be;
+    }
+    
+    .name {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    button{
+        padding: 5px 10px
+    } 
+
+    .nav-links{
+        font-weight: 5px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    body {
+        background-color: green;
+    }
+}
+
+
+
+/* min-width დროს,როდეს დევაისის ეკრანის ზომა როდესაც ჩამოცდება ის აღარ იმუშავებს ხოლო max-width მაშინ მუშაობს როდესაც ეკრანის ზომა მასზე ნაკლებია  */

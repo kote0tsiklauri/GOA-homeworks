@@ -1,0 +1,96 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.parent {
+    background-color: rgb(40, 75, 87);
+    width: 70%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(162, 185, 192);
+}
+
+.left, .right {
+    width: 40%;
+    height: 500px;
+    box-sizing: border-box;
+    border-radius: 8px ;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.left {
+    background-color: #fff;
+    padding: 10px 0px 40px 20px;
+    
+}
+
+.right {
+    background-color: darkmagenta;
+    padding: 10px 20px 40px 0px;
+    
+}
+
+input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.name , .arena_emp , .ZIp_place , .code_phone {
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+input[type="text"], input[type="number"] {
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: #fff; 
+}
+
+input::placeholder {
+    color: grey;
+    font-style: italic;
+}
+
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.submit input[type="submit"] {
+    margin: 30px;
+    font-size: 15px;
+    width: 90px;
+    background-color: #fff; 
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+}
