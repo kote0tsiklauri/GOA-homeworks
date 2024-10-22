@@ -22,7 +22,6 @@ console.log(math(1,2,3));
 
 function check(num1,num2) {
     return num1 > num2;
-    
 }
 
 console.log(check(3,4));
@@ -37,3 +36,10 @@ function find(id) {
 }
 
 find("h1")
+
+// დავალება 5
+
+function func(id,str) {
+    let txt = docuent.getElementById(id);
+    txt.textContent = str; 
+}
