@@ -1,0 +1,1 @@
+def f(s): return s[::-1] if s and s[0].isupper() else s
