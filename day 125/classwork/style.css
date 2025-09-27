@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;               
+}
+
+.N1{
+    position: absolute;
+    height: 40px;
+    width: auto;
+    background-color: aqua;
+}
+
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+  
+.N2{
+    width: 80px;
+    height: 80px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+
+/* display: block  ელემენტი მთლიან ხაზს იკავებს.
+
+display: inline ელემენტი მარტო თავის სიგრძის ადგილს იკავებს ანუ hight და width
+
+display: flex მისი მეშვეობით ელემენტების დალაგება შეგვიძლია ჰორიზონტალურად ან ვერტიკალურად იმის მიუხედავად თუ რა ტიპების არიოან ისინი(block ,inline)
+*/
+
