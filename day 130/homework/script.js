@@ -29,7 +29,7 @@ async function fetchPost() {
     }
 }
 
- function renderPost(post) {
+function renderPost(post) {
     const html = `
       <div class="post-container">
         <div class="post-title">${post.title}</div>
