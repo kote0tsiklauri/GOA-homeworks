@@ -21,7 +21,7 @@ let names: string[] = ["lasha","gio","dato"]
 console.log(names)
 
 //* 6
-const numbers: number[] = [10, 20, 30, 40, 50];
+const arrNumbers: number[] = [10, 20, 30, 40, 50];
 
 for (let num of numbers) {
     console.log(num);

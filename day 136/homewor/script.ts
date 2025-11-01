@@ -27,10 +27,10 @@ let username: string = "Giorgi";
 
 
 // 7
-function greet(name: string): string {
+function funcGreet(name: string): string {
   return "Hello, " + name;
 }
-console.log(greet("Mariam"));
+console.log(funcGreet("Mariam"));
 
 // 8
 function sayHello(): void {
