@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="colorInput" placeholder="Type a color">
+</body>
+<script>
+    const avaliableColors =  ["red", "black", "yellow"];
+    const input = document.getElementById("colorInput");
+
+    input.addEventListener("input", function () {
+    const value = input.value
+    if (input.value.includes(avaliableColors)) {
+        document.body.style.backgroundColor = value;
+    }
+});
+
+
+</script>
+</html>
+// შევქმნათ 1 input ველი სადაც მომხმარებელი შეიყვანს 3 ფერს(red, black, yellow) რასაც შეიყვანს მომხმარებელი იმის მიხედვით
+// უნდა შეიცვალოს body-ს background-ის ფერი მოხმმარებელს უნდა შეეძ₾ოს მხოლოდ ამ სამი ფერის შეყვანა

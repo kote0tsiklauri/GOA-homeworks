@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.homework1 {
+
+    height: 100px;
+    border: 2px solid black; /* borders ვხდით 2px და შავს რათა კარგად გამოჩნდეს*/
+    border-radius: 10px; /*borders რადიუს ვცვლით 10px,რათა კუთხები მომგვარდეს*/
+    padding: 10px 20px 25px 30px;  /*borders მაღლიდან 10px,მარგვნიდან 20px,ქვემოდან 25px და მარცხნიდან 30px ვაშორებთ*/
+}
+
+
+.homework2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    border: 3px solid red;
+}
+
+.child {
+    width: 20%;
+    height: 150px;
+    border: 2px solid green;
+}

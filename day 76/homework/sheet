@@ -1,0 +1,36 @@
+def sum_digits(n):
+    result = 0
+    while n > 0:
+        result += n % 10
+        n //= 10  # ეს უნდა იყოს /=, რათა N განახლდეს
+    return result
+
+print(sum_digits(123))  # მოსალოდნელი შედეგი: 6 (1 + 2 + 3)
+print(sum_digits(405))  # მოსალოდნელი შედეგი: 9 (4 + 0 + 5)
+
+def sum_digits(n):
+    n = abs(n)  
+    result = 0
+    while n > 0:
+        result += n % 10
+        n //= 10
+    return result
+
+
+
+if (len(lst) < 2):
+    return None
+
+    max1 = max(lst)
+    max2 = max(lst)
+
+    return max1 + max2
+
+
+if (len(lst) < 2)
+        return None
+
+    max1 = max(lst)
+    
+
+return max1 + max2  

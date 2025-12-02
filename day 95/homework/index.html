@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>ელემენტის დამატება</title>
+</head>
+<body>
+
+<button id="addButton">დაამატე ახალი Div</button>
+
+<script>
+  const addButton = document.getElementById('addButton');
+
+  addButton.addEventListener('click', function() {
+    const newDiv = document.createElement('div');
+    newDiv.textContent = "მე ვარ ახალი ელემენტი!";
+    newDiv.style.width = "100px";
+    newDiv.style.height = "100px";
+    newDiv.style.background = "lightgreen";
+    newDiv.style.margin = "10px";
+    document.body.appendChild(newDiv);
+  });
+</script>
+
+</body>
+</html>

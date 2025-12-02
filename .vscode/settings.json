@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
     "liveServer.settings.fullReload": false
+=======
+    "liveServer.settings.port": 5501
+>>>>>>> dfc92a7686bfb1127581b88f92f8107c09881012
 }
