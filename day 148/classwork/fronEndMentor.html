@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="flex h-screen justify-center items-center bg-[hsl(221,100%,96%)]">
+    <main class="flex">
+       <section class="h-[500px] w-[300px] flex flex-col justify-around items-center p-6 rounded-2xl
+          bg-gradient-to-b
+          from-[hsl(252,100%,67%)]
+          via-[hsl(241,81%,54%)]
+          to-[hsla(241,72%,46%,0)]
+          text-white
+        ">
+          <p class="text-lg font-semibold">Your Result</p>
+
+          <div class="flex flex-col justify-center items-center h-[150px] w-[150px] bg-[rgb(17,37,212)] rounded-full">
+            <p class="text-3xl font-bold">76</p>
+            <p class="text-sm text-gray-300">of 100</p>
+          </div>
+
+          <div class="text-center px-4">
+            <h3 class="text-xl font-bold mb-2">Great</h3>
+            <p class="text-sm text-gray-100">You scored higher than 65% of the people who have taken these tests.</p>
+          </div>
+        </section>
+
+    <!-- Summary Section -->
+    <section class="h-[500px] w-[300px] flex flex-col justify-between p-6 rounded-2xl bg-[hsl(0,0%,100%)]">
+      <p class="text-lg font-semibold mb-4">Summary</p>
+      
+      <div class="flex justify-between mb-2 p-2 bg-[hsl(0,100%,67%)] rounded-lg">
+        <p>Reaction</p>
+        <p class="font-bold text-gray-800">80 <span class="text-gray-400">/ 100</span></p>
+      </div>
+      <div class="flex justify-between mb-2 p-2 bg-[hsl(39,100%,56%)] rounded-lg">
+        <p>Memory</p>
+        <p class="font-bold text-gray-800">92 <span class="text-gray-400">/ 100</span></p>
+      </div>
+      <div class="flex justify-between mb-2 p-2 bg-[hsl(166,100%,37%)] rounded-lg">
+        <p>Verbal</p>
+        <p class="font-bold text-gray-800">61 <span class="text-gray-400">/ 100</span></p>
+      </div>
+      <div class="flex justify-between mb-4 p-2 bg-[hsl(234,85%,45%)] rounded-lg">
+        <p>Visual</p>
+        <p class="font-bold text-gray-800">72 <span class="text-gray-400">/ 100</span></p>
+      </div>
+
+      <button class="w-full py-2 rounded-full bg-[hsl(224,30%,27%)] text-white font-semibold hover:bg-[hsl(241,81%,54%)] transition">
+        Continue
+      </button>
+    </section>
+
+    </main>
+</body>
+</html>
