@@ -1,0 +1,24 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<style>
+body{
+margin:0;
+padding:0;
+background:#3157B4
+}
+div {
+position:absolute;
+width:120;
+height:120;
+background:#84BE8D;
+}
+[a]{left:90;top:36;}
+[b]{right:90;top:144;}
+[a]::before,[b]::before{content: "";position: absolute;width:40;height:36;background:#060F55;top:84;left:80;}
+[b]::before{top:0;left:0;}
+[c],[d]{width:200;height:16;background:#060F55}
+[c]{left:0;top:156;}
+[d]{right:0;top:128}
+</style>
